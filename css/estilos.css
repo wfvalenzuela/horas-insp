@@ -1,0 +1,48 @@
+body {
+  background-color: azure;
+}
+
+.contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.contenedor-botones {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 200px;
+}
+
+.formulario-grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.botones-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.footer {
+  background: rgb(199, 196, 196);
+  text-align: center;
+  padding: 50px;
+  margin: 30px;
+}
+
+.footer a:hover {
+  color: white;
+}
