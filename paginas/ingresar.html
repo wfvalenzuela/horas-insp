@@ -13,23 +13,25 @@
   <main class="contenedor-principal">
     <h1>CONSULTA DE HORAS</h1>
     <h2>INGRESAR</h2>
-    <FORM>
+    <form>
       <div class="formulario-grupo">
         <div class="botones-info">
           <label for="dni">DNI</label>
-          <input type="text" id="dni">
+          <input type="text" id="dni" name="dni" required minlength="7" maxlength="8" inputmode="numeric"
+            placeholder="Ej: 38125879" autocomplete="username">
         </div>
 
         <div class="botones-info">
           <label for="password">Contraseña</label>
-          <input type="password" id="password">
+          <input type="password" id="password" name="password" required minlength="6" maxlength="15" inputmode="numeric"
+            placeholder="1 mayus y 1 num minimo" autocomplete="current-password">
         </div>
 
         <button type="submit">INGRESAR</button>
         <a href="./olvide-contraseña.html">Olvide mi Contraseña</a>
       </div>
 
-    </FORM>
+    </form>
 
 
   </main>

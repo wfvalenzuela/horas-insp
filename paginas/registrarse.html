@@ -13,38 +13,40 @@
   <main class="contenedor-principal">
     <h1>CONSULTA DE HORAS</h1>
     <h2>REGISTRARSE</h2>
-    <FORM>
+    <form action="../index.html">
       <div class="formulario-grupo">
 
         <div class="botones-info">
           <label for="Apellido">Apellido</label>
-          <input type="text" id="apellido">
+          <input type="text" id="apellido" required>
         </div>
 
         <div class="botones-info">
           <label for="nombre">Nombre</label>
-          <input type="text" id="nombre">
+          <input type="text" id="nombre" required>
         </div>
 
         <div class="botones-info">
           <label for="email">Email</label>
-          <input type="email" id="email">
+          <input type="email" id="email" required>
         </div>
 
         <div class="botones-info">
           <label for="dni">DNI</label>
-          <input type="text" id="dni">
+          <input type="text" id="dni" required minlength="7" maxlength="8">
         </div>
 
         <div class="botones-info">
           <label for="password">Contraseña</label>
-          <input type="password" id="password">
+          <input type="password" id="password" required minlength="6" maxlength="15"
+            placeholder="1 mayus y 1 num minimo" pattern="(?=.*[A-Z])(?=.*[0-9]).+"
+            title="La contraseña debe tener al menos una letra mayúscula y un número">
         </div>
 
         <button type="submit">REGISTRARSE</button>
       </div>
 
-    </FORM>
+    </form>
 
 
   </main>
