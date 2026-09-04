@@ -9,11 +9,11 @@
   <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
-<body>
+<body class="body-ingresar">
   <main class="contenedor-principal">
     <h1>CONSULTA DE HORAS</h1>
     <h2>INGRESAR</h2>
-    <form>
+    <form action="./consulta-mes.html">
       <div class="formulario-grupo">
         <div class="botones-info">
           <label for="dni">DNI</label>
@@ -23,8 +23,9 @@
 
         <div class="botones-info">
           <label for="password">Contraseña</label>
-          <input type="password" id="password" name="password" required minlength="6" maxlength="15" inputmode="numeric"
-            placeholder="1 mayus y 1 num minimo" autocomplete="current-password">
+          <input type="password" id="password" name="password" required minlength="6" maxlength="15"
+            placeholder="1 mayus y 1 num minimo" autocomplete="current-password" pattern="(?=.*[A-Z])(?=.*[0-9]).+"
+            title="La contraseña debe tener al menos una letra mayuscula y un número">
         </div>
 
         <button type="submit">INGRESAR</button>

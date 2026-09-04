@@ -1,5 +1,21 @@
-body {
+.body-index {
   background-color: azure;
+}
+
+.body-consulta-mes {
+  background-color: aquamarine;
+}
+
+.body-ingresar {
+  background-color: rgb(165, 183, 237);
+}
+
+.body-contraseña {
+  background-color: blueviolet;
+}
+
+.body-registrarse {
+  background-color: blanchedalmond;
 }
 
 .contenedor-principal {
