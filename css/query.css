@@ -5,3 +5,25 @@
     padding: 15px;
   }
 }
+
+@media (max-width: 780px) {
+  .body-index {
+    background-color: rgb(4, 252, 111);
+  }
+
+  .body-consulta-mes {
+    background-color: rgb(73, 100, 91);
+  }
+
+  .body-ingresar {
+    background-color: rgb(82, 115, 212);
+  }
+
+  .body-contraseña {
+    background-color: rgb(132, 64, 196);
+  }
+
+  .body-registrarse {
+    background-color: rgb(199, 140, 53);
+  }
+}
